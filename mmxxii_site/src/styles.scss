@@ -12,8 +12,60 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$mmxxii_site-primary: mat.define-palette(mat.$indigo-palette);
-$mmxxii_site-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$my_palette-primary: (
+  50: #EDF4EB,
+  100: #D4E4C7,
+  200: #BAD3A4,
+  300: #A0C381,
+  400: #8DB667,
+  500: #7DAA4D,
+  600: #719B45,
+  700: #648A3C,
+  800: #587934,
+  900: #425A27,
+  contrast: (
+    50: null,
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: null,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+  )
+);
+
+$my_palette-secondary: (
+  50: #F5F5F5,
+  100: #E9E9E9,
+  200: #D9D9D9,
+  300: #C4C4C4,
+  400: #9D9D9D,
+  500: #7B7B7B,
+  600: #555555,
+  700: #434343,
+  800: #262626,
+  900: #000000,
+  contrast: (
+    50: null,
+    100: null,
+    200: null,
+    300: null,
+    400: null,
+    500: null,
+    600: null,
+    700: null,
+    800: null,
+    900: null,
+  )
+);
+
+// $mmxxii_site-primary: mat.define-palette(mat.$indigo-palette);
+// $mmxxii_site-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$mmxxii_site-primary: mat.define-palette($my_palette-primary, 800);
+$mmxxii_site-accent: mat.define-palette($my_palette-secondary, 900);
 
 // The warn palette is optional (defaults to red).
 $mmxxii_site-warn: mat.define-palette(mat.$red-palette);
