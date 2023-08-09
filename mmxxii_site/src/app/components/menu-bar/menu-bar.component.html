@@ -1,5 +1,14 @@
-<mat-toolbar class="menu" color="primary">
+<mat-toolbar color="primary">
     <div class="logo">
         <img src="../../../assets/images/logo_oficial.jpg" alt="">
     </div>
+    <span class="spacer"></span>
+    <button
+    mat-mini-fab
+    class="icon favorite-icon"
+    aria-label="Example icon-button with heart icon"
+    (click)="navigate()"
+    >
+        <mat-icon aria-hidden="false" fontIcon="connect_without_contact"></mat-icon>
+    </button>
 </mat-toolbar>

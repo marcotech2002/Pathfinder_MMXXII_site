@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class MenuBarComponent {
 
+  navigate()
+  {
+    window.open('https://taggo.one/mmxxii_ambiental', '_blank');
+  }
 }
