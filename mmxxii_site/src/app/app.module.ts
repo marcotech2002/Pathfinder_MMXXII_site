@@ -9,11 +9,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { HomeComponent } from './components/home/home.component';
+import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
+    HomeComponent,
+    AboutComponent,
+    ServicesComponent,
   ],
   imports: [
     BrowserModule,
